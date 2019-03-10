@@ -8,7 +8,7 @@ describe('Employees', () => {
   describe('GET /employees', () => {
     it('should return all employees', async () => {
       const res = await chai.request(URL).get('/employees')
-      expect(res).to.have.status(200)
+      expect(res).to.have.status(201)
     })
   })
 
@@ -36,14 +36,18 @@ describe('Employees', () => {
         .post('/employees')
         .send(employee)
       expect(res).to.have.status(400)
-      expect(res.body).to.like({ phoneNumber: 'Phone Number is required.' })
+      expect(res.body).to.like({
+        phoneNumber: 'Phone Number is required.'
+      })
     })
   })
 
   describe('PUT /employees', () => {
     let EmployeeServiceStub
     beforeEach(() => {
-      EmployeeServiceStub = sinon.stub(EmployeeService, 'update').resolves({ success: true })
+      EmployeeServiceStub = sinon.stub(EmployeeService, 'update').resolves({
+        success: true
+      })
     })
     it('should test with stub object', async () => {
       const employee = {
