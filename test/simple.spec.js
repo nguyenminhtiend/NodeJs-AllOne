@@ -8,7 +8,7 @@ describe('Employees', () => {
   describe('GET /employees', () => {
     it('should return all employees', async () => {
       const res = await chai.request(URL).get('/employees')
-      expect(res).to.have.status(201)
+      expect(res).to.have.status(202)
     })
   })
 
