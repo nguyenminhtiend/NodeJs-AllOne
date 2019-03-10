@@ -1,0 +1,40 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    },
+    "impliedStrict": true
+  },
+  "plugins": [],
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-console": 0,
+    "func-names": 0,
+    "object-curly-spacing": 0,
+    "comma-dangle": 0,
+    "arrow-body-style": 0,
+    "consistent-return": 0,
+    "no-param-reassign": "warn",
+    "arrow-parens": 0,
+    "semi": [
+      "error",
+      "never"
+    ],
+    "no-underscore-dangle": 0
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "globals": {
+    "expect": true,
+    "chai": true,
+    "URL": true,
+    "sinon": true
+  }
+}
