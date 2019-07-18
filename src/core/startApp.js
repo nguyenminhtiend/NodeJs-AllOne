@@ -23,8 +23,6 @@ module.exports = async (app, port = DEFAULT_PORT, env = DEFAULT_ENV) => {
   app.use(errorHandler)
   initLogResponseEnd(app)
 
-
-
   app.listen(port, () => {
     console.log(`Server (env: ${process.env.NODE_ENV}) started on ${port}`)
   })
