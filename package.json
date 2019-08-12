@@ -1,39 +1,38 @@
 {
-  "name": "NodeJs-AllOne",
+  "name": "node-js-all-one",
   "version": "1.0.0",
   "description": "NodeJS all in one",
   "main": "app.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon --harmony-promise-finally src/app.js",
-    "start": "NODE_ENV=production node --harmony-promise-finally src/app.js",
-    "db:migrate": "sequelize db:migrate",
+    "dev": "NODE_ENV=development nodemon src/app.js",
+    "start": "NODE_ENV=production node src/app.js",
+    "db:migrate": "sequelize --options-path ./src/db/config/sequelize.js db:migrate",
     "test": "NODE_ENV=test mocha test/setup test/**/*.spec.js --exit",
     "db:test": "NODE_ENV=test sequelize db:create && sequelize db:migrate",
     "lint": "eslint .",
     "docker-build": "docker build -t nodejs-all-one .",
     "docker-run": "docker run --rm -it -p 5001:5000 -d nodejs-all-one"
   },
-  "author": "Jiew Meng <jiewmeng@gmail.com>",
+  "author": "Tien Nguyen <nguyenminhtiend@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/2359media/IncomePolicy-Server.git"
+    "url": "https://github.com/nguyenminhtiend/NodeJs-AllOne.git"
   },
   "license": "MIT",
   "dependencies": {
-    "bluebird": "3.5.2",
     "body-parser": "1.18.3",
+    "config": "^3.2.2",
     "cors": "2.8.4",
     "dateformat": "3.0.3",
-    "dotenv": "^6.2.0",
     "express": "4.16.3",
     "glob": "7.1.2",
     "helmet": "^3.15.1",
     "joi": "^14.3.1",
     "jsonwebtoken": "8.2.1",
-    "lodash": "4.17.10",
+    "moment-timezone": "^0.5.26",
     "ms": "2.1.1",
     "mysql2": "1.5.3",
-    "sequelize": "4.38.1",
+    "sequelize": "^5.12.3",
     "uuid": "3.2.1",
     "validator": "9.4.1",
     "winston": "3.0.0-rc5"
@@ -45,10 +44,12 @@
     "chai": "4.1.2",
     "chai-http": "4.2.0",
     "chai-like": "1.1.1",
-    "eslint": "4.19.1",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
     "mocha": "6.0.2",
     "nodemon": "1.17.5",
-    "nyc": "^13.3.0",
     "sinon": "6.1.4"
   }
 }

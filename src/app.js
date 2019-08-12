@@ -1,7 +1,7 @@
-const startApp = require('./core/startApp')
-const express = require('express')
+const express = require('express');
+const { startApp } = require('./core');
 
-const app = express()
-startApp(app)
+const app = express();
+startApp(app);
 
-module.exports = app
+module.exports = app;

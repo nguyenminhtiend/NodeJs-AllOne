@@ -6,17 +6,6 @@ module.exports = {
     database: process.env.DB_DATABASE,
     logging: false,
     charset: 'utf8',
-    dialect: 'mysql',
-    pool: {
-      max: 10,
-      min: 0,
-      idle: 10000
-    }
-  },
-
-  logging: {
-    request: true,
-    response: true,
-    error: true
+    dialect: 'mysql'
   }
-}
+};

@@ -1,102 +1,948 @@
 { message: 
-   { id: '713eb5fe-f1e2-4c87-afd5-7209d09b5388',
-     datetime: '2019-07-18 15:43:18 +07:00',
+   { id: 'daa5964c-deef-4f17-80c5-c7b4350be650',
+     datetime: '2019-08-09 11:02:11 +07:00',
      url: '/api/employees',
      method: 'GET',
      query: {},
      body: {} },
   level: 'info',
-  timestamp: '2019-07-18T08:43:18.805Z',
+  timestamp: '2019-08-09T04:02:11.504Z',
   [Symbol(level)]: 'info' }
 { message: 
-   { id: '713eb5fe-f1e2-4c87-afd5-7209d09b5388',
-     executionTime: '12ms',
+   { id: 'daa5964c-deef-4f17-80c5-c7b4350be650',
+     executionTime: '33ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-09T04:02:11.535Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'd3d86dfa-2e35-4c39-9deb-06cf4f0dba0e',
+     datetime: '2019-08-09 11:02:11 +07:00',
+     url: '/favicon.ico',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:02:11.695Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'd3d86dfa-2e35-4c39-9deb-06cf4f0dba0e',
+     executionTime: '0ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-09T04:02:11.695Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '821eab38-852b-4231-a002-eb1561dba5d0',
+     datetime: '2019-08-09 11:02:17 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:02:17.668Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '821eab38-852b-4231-a002-eb1561dba5d0',
+     executionTime: '6ms',
      status: 304 },
   level: 'info',
-  timestamp: '2019-07-18T08:43:18.815Z',
+  timestamp: '2019-08-09T04:02:17.674Z',
   [Symbol(level)]: 'info' }
 { message: 
-   { id: '8b7970bf-9966-491e-876d-53e9afd46eba',
-     datetime: '2019-07-18 15:43:25 +07:00',
-     url: '/',
+   { id: '2296e649-dd54-49d6-8dca-bf845c81c725',
+     datetime: '2019-08-09 11:02:29 +07:00',
+     url: '/api/employees',
      method: 'GET',
      query: {},
      body: {} },
   level: 'info',
-  timestamp: '2019-07-18T08:43:25.762Z',
+  timestamp: '2019-08-09T04:02:29.059Z',
   [Symbol(level)]: 'info' }
 { message: 
-   { id: '8b7970bf-9966-491e-876d-53e9afd46eba',
-     executionTime: '1ms',
-     status: 200 },
-  level: 'info',
-  timestamp: '2019-07-18T08:43:25.762Z',
-  [Symbol(level)]: 'info' }
-{ message: 
-   { id: '2ce9c3bd-9a24-423c-8c0f-3451a5e7d4fa',
-     datetime: '2019-07-18 15:44:54 +07:00',
-     url: '/',
-     method: 'GET',
-     query: {},
-     body: {} },
-  level: 'info',
-  timestamp: '2019-07-18T08:44:54.200Z',
-  [Symbol(level)]: 'info' }
-{ message: 
-   { id: '2ce9c3bd-9a24-423c-8c0f-3451a5e7d4fa',
-     executionTime: '1ms',
-     status: 200 },
-  level: 'info',
-  timestamp: '2019-07-18T08:44:54.201Z',
-  [Symbol(level)]: 'info' }
-{ message: 
-   { id: 'e691b326-9ed3-400d-a517-3cf2f8e46b73',
-     datetime: '2019-07-18 15:45:02 +07:00',
-     url: '/api',
-     method: 'GET',
-     query: {},
-     body: {} },
-  level: 'info',
-  timestamp: '2019-07-18T08:45:02.737Z',
-  [Symbol(level)]: 'info' }
-{ message: 
-   { id: 'e691b326-9ed3-400d-a517-3cf2f8e46b73',
-     executionTime: '2ms',
-     status: 200 },
-  level: 'info',
-  timestamp: '2019-07-18T08:45:02.739Z',
-  [Symbol(level)]: 'info' }
-{ message: 
-   { id: '4ab1f6cf-16d7-4944-a98b-ef255cae712d',
-     datetime: '2019-07-18 15:46:04 +07:00',
-     url: '/api',
-     method: 'GET',
-     query: {},
-     body: {} },
-  level: 'info',
-  timestamp: '2019-07-18T08:46:04.393Z',
-  [Symbol(level)]: 'info' }
-{ message: 
-   { id: '4ab1f6cf-16d7-4944-a98b-ef255cae712d',
+   { id: '2296e649-dd54-49d6-8dca-bf845c81c725',
      executionTime: '10ms',
-     status: 200 },
+     status: 304 },
   level: 'info',
-  timestamp: '2019-07-18T08:46:04.400Z',
+  timestamp: '2019-08-09T04:02:29.069Z',
   [Symbol(level)]: 'info' }
 { message: 
-   { id: '88c455b2-6639-4eb7-9ad1-8b8371646705',
-     datetime: '2019-07-18 15:46:24 +07:00',
-     url: '/api',
+   { id: 'fd6d3f03-6edb-412c-9c2a-17f4724a51bc',
+     datetime: '2019-08-09 11:04:23 +07:00',
+     url: '/api/employees',
      method: 'GET',
      query: {},
      body: {} },
   level: 'info',
-  timestamp: '2019-07-18T08:46:24.960Z',
+  timestamp: '2019-08-09T04:04:23.982Z',
   [Symbol(level)]: 'info' }
 { message: 
-   { id: '88c455b2-6639-4eb7-9ad1-8b8371646705',
-     executionTime: '2ms',
+   { id: '2b799dde-16eb-47a8-934a-a758cd377cfb',
+     datetime: '2019-08-09 11:06:47 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:06:48.000Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '2b799dde-16eb-47a8-934a-a758cd377cfb',
+     executionTime: '25ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-09T04:06:48.022Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'd2dbbc09-c1c5-4630-9d27-a20c4e655afb',
+     datetime: '2019-08-09 11:10:07 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:10:07.929Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'd2dbbc09-c1c5-4630-9d27-a20c4e655afb',
+     executionTime: '34ms',
      status: 304 },
   level: 'info',
-  timestamp: '2019-07-18T08:46:24.961Z',
+  timestamp: '2019-08-09T04:10:07.961Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '0c541575-381a-4171-bae7-0948ab5d1faf',
+     datetime: '2019-08-09 11:13:43 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:13:43.874Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '0c541575-381a-4171-bae7-0948ab5d1faf',
+     executionTime: '27ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-09T04:13:43.899Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'bc9edde7-4a5c-4f0f-b220-91e670b6afa2',
+     datetime: '2019-08-09 11:14:14 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:14:14.834Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'bc9edde7-4a5c-4f0f-b220-91e670b6afa2',
+     executionTime: '24ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-09T04:14:14.856Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '21bbea20-a06a-4436-b7d5-e92d8e94c55b',
+     datetime: '2019-08-09 11:18:25 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:18:25.966Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'ca804f10-af03-46a0-9f94-66261dc2a556',
+     datetime: '2019-08-09 11:18:32 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:18:32.924Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'ca804f10-af03-46a0-9f94-66261dc2a556',
+     executionTime: '29ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-09T04:18:32.951Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'e6353454-51f8-4f3b-8a3e-3ba9d049bb0e',
+     datetime: '2019-08-09 11:18:47 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:18:47.904Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'e6353454-51f8-4f3b-8a3e-3ba9d049bb0e',
+     executionTime: '22ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-09T04:18:47.924Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'd44ee6d8-0f46-42c4-baf7-6a09613d1d82',
+     datetime: '2019-08-09 11:18:52 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:18:52.069Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'd44ee6d8-0f46-42c4-baf7-6a09613d1d82',
+     executionTime: '9ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-09T04:18:52.078Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'e453ee2b-604e-4ec0-b7d2-81dd4177493c',
+     datetime: '2019-08-09 11:20:42 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:20:42.503Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'e453ee2b-604e-4ec0-b7d2-81dd4177493c',
+     executionTime: '26ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-09T04:20:42.528Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'a6e2c57e-ca90-492b-b762-ed192067f028',
+     datetime: '2019-08-09 11:20:50 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:20:50.685Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'a6e2c57e-ca90-492b-b762-ed192067f028',
+     executionTime: '24ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-09T04:20:50.707Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '9fcaa93e-e57b-4dd9-b079-05d97bdfd458',
+     datetime: '2019-08-09 11:20:59 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:20:59.649Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '9fcaa93e-e57b-4dd9-b079-05d97bdfd458',
+     executionTime: '25ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-09T04:20:59.672Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '3b52bd88-65d2-4b33-b872-9e90f58da3e5',
+     datetime: '2019-08-09 11:21:46 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:21:46.367Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '3b52bd88-65d2-4b33-b872-9e90f58da3e5',
+     executionTime: '26ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-09T04:21:46.391Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'fcac0037-a680-48dc-b631-53a5b78e4a47',
+     datetime: '2019-08-09 11:22:10 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:22:10.406Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'fcac0037-a680-48dc-b631-53a5b78e4a47',
+     executionTime: '25ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-09T04:22:10.429Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '57fb75d0-30d0-41bf-8083-64c69d722bca',
+     datetime: '2019-08-09 11:57:06 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T04:57:06.553Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '57fb75d0-30d0-41bf-8083-64c69d722bca',
+     executionTime: '40ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-09T04:57:06.590Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '02b51439-4226-46e4-9a5b-76fdbeeed2e9',
+     datetime: '2019-08-09 12:40:08 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T05:40:08.664Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '02b51439-4226-46e4-9a5b-76fdbeeed2e9',
+     executionTime: '47ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-09T05:40:08.706Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'f4bd3e29-d93b-4a13-a27d-dd686a997b4e',
+     datetime: '2019-08-09 12:40:25 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T05:40:25.739Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'c7cacfdb-da6f-4629-9a1f-4ffef1276026',
+     datetime: '2019-08-09 12:40:37 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-09T05:40:37.184Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'c7cacfdb-da6f-4629-9a1f-4ffef1276026',
+     executionTime: '26ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-09T05:40:37.208Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '2f7a7574-30da-41b8-a515-7477ad98ad1e',
+     datetime: '2019-08-10 15:58:17 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-10T08:58:17.351Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '2f7a7574-30da-41b8-a515-7477ad98ad1e',
+     executionTime: '100ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-10T08:58:17.448Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '148b9af0-7c38-4c9b-8564-4f9427d0e2d9',
+     datetime: '2019-08-10 15:59:34 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-10T08:59:34.606Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '148b9af0-7c38-4c9b-8564-4f9427d0e2d9',
+     executionTime: '35ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-10T08:59:34.640Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '280a05c9-efdb-4def-8a36-4c48b90b299d',
+     datetime: '2019-08-10 15:59:35 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-10T08:59:35.543Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '280a05c9-efdb-4def-8a36-4c48b90b299d',
+     executionTime: '9ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-10T08:59:35.551Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'c1fa3302-ed3d-4378-8a49-3b35df353327',
+     datetime: '2019-08-10 16:00:04 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-10T09:00:04.712Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'c1fa3302-ed3d-4378-8a49-3b35df353327',
+     executionTime: '31ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-10T09:00:04.740Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '05c5ab24-ddc4-4d34-86f4-42ce19645ad5',
+     datetime: '2019-08-11 09:24:35 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-11T02:24:35.569Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '05c5ab24-ddc4-4d34-86f4-42ce19645ad5',
+     executionTime: '83ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-11T02:24:35.648Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '5a38d5fc-8047-4af8-9025-dfddea17263c',
+     datetime: '2019-08-11 21:34:08 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-11T14:34:08.933Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '5a38d5fc-8047-4af8-9025-dfddea17263c',
+     executionTime: '60ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-11T14:34:08.990Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '6ac2a362-b1dc-495a-b40d-d7135f2d855f',
+     datetime: '2019-08-11 21:34:09 +07:00',
+     url: '/favicon.ico',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-11T14:34:09.233Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '6ac2a362-b1dc-495a-b40d-d7135f2d855f',
+     executionTime: '1ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-11T14:34:09.234Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '3e910dcf-6b87-4129-aebf-5c5a03e7cb3b',
+     datetime: '2019-08-11 21:35:30 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-11T14:35:30.925Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '3e910dcf-6b87-4129-aebf-5c5a03e7cb3b',
+     executionTime: '33ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-11T14:35:30.952Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'c2afc85a-3f76-45b3-9482-60c835a79054',
+     datetime: '2019-08-11 21:35:31 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-11T14:35:31.777Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'c2afc85a-3f76-45b3-9482-60c835a79054',
+     executionTime: '7ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-11T14:35:31.783Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '86b6bb65-e95a-4756-b16b-0069e32ae7d2',
+     datetime: '2019-08-11 21:36:01 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-11T14:36:01.408Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '86b6bb65-e95a-4756-b16b-0069e32ae7d2',
+     executionTime: '28ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-11T14:36:01.433Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '314be242-5a28-4331-ad09-d5caa9a45942',
+     datetime: '2019-08-11 21:36:11 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-11T14:36:11.583Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '314be242-5a28-4331-ad09-d5caa9a45942',
+     executionTime: '11ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-11T14:36:11.594Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '8991b347-3060-48bc-ae00-f2002959a95f',
+     datetime: '2019-08-11 21:42:22 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-11T14:42:22.122Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '8991b347-3060-48bc-ae00-f2002959a95f',
+     executionTime: '36ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-11T14:42:22.155Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'b403f78d-a665-4098-b206-45026791aa4d',
+     datetime: '2019-08-11 21:42:28 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-11T14:42:28.784Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'b403f78d-a665-4098-b206-45026791aa4d',
+     executionTime: '11ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-11T14:42:28.794Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '5ba2b2f6-fd94-4cf2-8791-b8a36404a577',
+     datetime: '2019-08-12 09:32:46 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T02:32:46.636Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '5ba2b2f6-fd94-4cf2-8791-b8a36404a577',
+     executionTime: '39ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-12T02:32:46.672Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '1decdc36-cdd5-4225-8785-4ae689eb3848',
+     datetime: '2019-08-12 21:49:48 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T14:49:48.312Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '1decdc36-cdd5-4225-8785-4ae689eb3848',
+     executionTime: '12ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-12T14:49:48.322Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '6e636c1d-e8c6-4b67-af77-34a866fb507e',
+     datetime: '2019-08-12 21:53:46 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T14:53:46.097Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '6e636c1d-e8c6-4b67-af77-34a866fb507e',
+     executionTime: '8ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-12T14:53:46.104Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '1aae84b9-7c95-40f0-9c08-4a453d5c9faa',
+     datetime: '2019-08-12 21:55:56 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T14:55:56.639Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '4b3f7785-3ac6-47bd-b88a-c7fef76e4fdc',
+     datetime: '2019-08-12 21:56:37 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T14:56:37.511Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '128b6c23-dea9-426e-9df8-d28798d16951',
+     datetime: '2019-08-12 21:56:39 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T14:56:39.993Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '208b4f1d-48d5-4d3b-8f10-61f2b6c9bce4',
+     datetime: '2019-08-12 21:59:08 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T14:59:08.033Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '2b5c152d-1974-4c14-8e66-b77b3f3ffc09',
+     datetime: '2019-08-12 22:00:22 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:00:22.800Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '1e1c8610-c9d9-4167-bf0b-3a179fb73380',
+     datetime: '2019-08-12 22:09:14 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:09:14.454Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '6461bc8e-c567-4a94-aafd-41c38b2a3dd8',
+     datetime: '2019-08-12 22:09:17 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:09:17.176Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'b7fb77a6-fb59-4d67-8208-b3548807984f',
+     datetime: '2019-08-12 22:09:35 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:09:35.453Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'a2e53a06-73af-46b0-9de9-543f7d3d9455',
+     datetime: '2019-08-12 22:10:05 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:10:05.191Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'f316c1f6-a6e9-4044-bea3-c2746e958fa9',
+     datetime: '2019-08-12 22:11:55 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:11:55.308Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '7bf6d9c0-07d6-43a4-968c-d9109576ec0c',
+     datetime: '2019-08-12 22:11:57 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:11:57.853Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '96763b5c-2976-43a0-97df-154ea1fe8dc5',
+     datetime: '2019-08-12 22:12:48 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:12:48.885Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '96763b5c-2976-43a0-97df-154ea1fe8dc5',
+     executionTime: '5ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-12T15:12:48.888Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'a2488e9c-a6f0-477b-82ee-3ab77fd802e5',
+     datetime: '2019-08-12 22:14:57 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:14:57.456Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'a2488e9c-a6f0-477b-82ee-3ab77fd802e5',
+     executionTime: '11ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-12T15:14:57.463Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '243966a7-3520-450c-a184-9e342c6c7de8',
+     datetime: '2019-08-12 22:16:32 +07:00',
+     url: '/api/',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:16:32.418Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '243966a7-3520-450c-a184-9e342c6c7de8',
+     executionTime: '12ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-12T15:16:32.424Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '54ba1a88-5ad0-489e-9fa9-abd887cef978',
+     datetime: '2019-08-12 22:16:35 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:16:35.030Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'e799c4ef-6fa8-474a-8d3b-2d890278d70c',
+     datetime: '2019-08-12 22:16:45 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:16:45.762Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '4bba4e03-16d8-466b-b788-2f9e0f5e4b0c',
+     datetime: '2019-08-12 22:16:47 +07:00',
+     url: '/api/employees/d',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:16:47.664Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '4bba4e03-16d8-466b-b788-2f9e0f5e4b0c',
+     executionTime: '3ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-12T15:16:47.667Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '44792900-6e1d-4b30-bce2-559aa079870e',
+     datetime: '2019-08-12 22:16:57 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:16:57.322Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'dcaa7079-d5a3-4ed0-9241-26464d01100c',
+     datetime: '2019-08-12 22:29:13 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:29:13.836Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '66fcbbf4-6172-427c-92dd-a37c8aba7e00',
+     datetime: '2019-08-12 22:29:26 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:29:26.133Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'f8991f00-3c55-4ea2-9aec-a986f0685b6b',
+     datetime: '2019-08-12 22:29:27 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:29:27.417Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '27c83a64-2b69-4df2-b412-326fe49a0a9a',
+     datetime: '2019-08-12 22:29:34 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:29:34.401Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '27c83a64-2b69-4df2-b412-326fe49a0a9a',
+     executionTime: '71ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-12T15:29:34.471Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '24d5fe87-5c46-4396-93b9-2e98085dbaa9',
+     datetime: '2019-08-12 22:30:35 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:30:35.263Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '24d5fe87-5c46-4396-93b9-2e98085dbaa9',
+     executionTime: '72ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-12T15:30:35.331Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '674b5992-b76c-4146-9dba-c1d3a6053e34',
+     datetime: '2019-08-12 22:30:36 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:30:36.144Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '674b5992-b76c-4146-9dba-c1d3a6053e34',
+     executionTime: '6ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-12T15:30:36.150Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '49439ef6-80a0-4f17-b8f0-8b33068b2cec',
+     datetime: '2019-08-12 22:31:47 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:31:47.799Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '49439ef6-80a0-4f17-b8f0-8b33068b2cec',
+     executionTime: '66ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-12T15:31:47.862Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'e0176b41-2430-44f5-9a1a-74cb7cb881aa',
+     datetime: '2019-08-12 22:33:02 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-12T15:33:02.008Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'e0176b41-2430-44f5-9a1a-74cb7cb881aa',
+     executionTime: '72ms',
+     status: 304 },
+  level: 'info',
+  timestamp: '2019-08-12T15:33:02.076Z',
   [Symbol(level)]: 'info' }
