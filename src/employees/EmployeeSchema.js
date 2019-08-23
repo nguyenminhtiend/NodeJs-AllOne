@@ -1,17 +1,46 @@
 const Joi = require('joi');
 
-const employeeCreation = {
-  firstName: Joi.string()
-    .required()
-    .error(() => 'First Name is required.'),
-  lastName: Joi.string()
-    .required()
-    .error(() => 'Last Name is required.'),
-  phoneNumber: Joi.string()
-    .required()
-    .error(() => 'Phone Number is required.')
+const createEmployee = {
+  body: {
+    name: Joi.string()
+      .required()
+      .error(() => 'Name is required.'),
+    departmentId: Joi.number()
+      .integer()
+      .required()
+      .error(() => 'Department Id is required.')
+  }
+};
+
+const updateEmployee = {
+  body: {
+    name: Joi.string()
+      .required()
+      .error(() => 'Name is required.'),
+    departmentId: Joi.number()
+      .integer()
+      .required()
+      .error(() => 'Department Id is required.')
+  },
+  params: {
+    id: Joi.number()
+      .integer()
+      .required()
+      .error(() => 'Id is required.')
+  }
+};
+
+const detailEmployee = {
+  params: {
+    id: Joi.number()
+      .integer()
+      .required()
+      .error(() => 'Id is required.')
+  }
 };
 
 module.exports = {
-  employeeCreation
+  createEmployee,
+  updateEmployee,
+  detailEmployee
 };

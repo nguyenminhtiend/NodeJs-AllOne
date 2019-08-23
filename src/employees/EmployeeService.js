@@ -1,7 +1,8 @@
 const { Employee, Department } = require('../db/models');
+const { AppError } = require('../core');
 
 module.exports = class EmployeeService {
-  static async getEmployees() {
+  static async getBy() {
     const employees = await Employee.findAll({
       attributes: { exclude: ['updated_at'] },
       include: [
@@ -15,17 +16,31 @@ module.exports = class EmployeeService {
     return employees;
   }
 
-  static async create(data) {
-    return {
-      ...data,
-      id: new Date().getTime()
-    };
+  static async getById(id) {
+    const employee = await Employee.findByPk(id, {
+      attributes: { exclude: ['updated_at'] },
+      include: [
+        {
+          model: Department,
+          as: 'department',
+          attributes: ['id', 'name']
+        }
+      ]
+    });
+    return employee;
   }
 
-  static async update(data) {
-    console.log(data);
-    return new Promise((resolve) => {
-      setTimeout(() => resolve({ success: true }), 1);
+  static async create(employee) {
+    const savedEmployee = await Employee.create(employee);
+    return savedEmployee;
+  }
+
+  static async update(id, employee) {
+    const [affectedRows] = await Employee.update(employee, {
+      where: {
+        id
+      }
     });
+    if (affectedRows === 0) throw new AppError('No record is updated.');
   }
 };

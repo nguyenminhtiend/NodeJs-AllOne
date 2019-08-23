@@ -7,5 +7,10 @@ module.exports = {
     logging: false,
     charset: 'utf8',
     dialect: 'mysql'
+  },
+  logging: {
+    request: true,
+    response: true,
+    error: true
   }
 };

@@ -2,8 +2,8 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const initRoutes = require('./initRoutes');
-const initLog = require('./initLog');
-const initLogResponseEnd = require('./initLogResponseEnd');
+const initLogRequest = require('./initLogRequest');
+const initLogResponse = require('./initLogResponse');
 const errorHandler = require('./errorHandler');
 // const { sequelize } = require('../db/models');
 
@@ -14,11 +14,10 @@ module.exports = async (app, port = DEFAULT_PORT) => {
   app.use(helmet());
   app.use(cors());
   app.use(bodyParser.json());
-
-  initLog(app);
+  initLogRequest(app);
   initRoutes(app);
   app.use(errorHandler);
-  initLogResponseEnd(app);
+  initLogResponse(app);
 
   // await sequelize.authenticate();
   app.listen(port, () => {

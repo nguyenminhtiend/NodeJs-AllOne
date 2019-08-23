@@ -1,6 +1,4 @@
-const asyncRoute = asyncRouteHandler => (req, res, next) => Promise.resolve(asyncRouteHandler(req, res, next))
-  .then(() => next())
-  .catch(next);
+const { asyncRoute } = require('./asyncRoute');
 
 module.exports = {
   asyncRoute

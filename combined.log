@@ -946,3 +946,178 @@
   level: 'info',
   timestamp: '2019-08-12T15:33:02.076Z',
   [Symbol(level)]: 'info' }
+{ message: 
+   { id: '670d532f-0b01-4acc-af6f-7a1de76cf9bd',
+     datetime: '2019-08-20 07:51:56 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-20T00:51:56.871Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '670d532f-0b01-4acc-af6f-7a1de76cf9bd',
+     executionTime: '141ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-20T00:51:57.010Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '81db5652-544a-44bd-b298-afb3c29504d5',
+     datetime: '2019-08-20 07:51:57 +07:00',
+     url: '/api/employees',
+     method: 'POST',
+     query: {},
+     body: 
+      { firstName: 'Tien',
+        lastName: 'Nguyen',
+        phoneNumber: '+84966638355' } },
+  level: 'info',
+  timestamp: '2019-08-20T00:51:57.018Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '81db5652-544a-44bd-b298-afb3c29504d5',
+     executionTime: '7ms',
+     status: 201 },
+  level: 'info',
+  timestamp: '2019-08-20T00:51:57.025Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'b666032f-a3c8-46b1-9713-399e7ccacf50',
+     datetime: '2019-08-20 07:51:57 +07:00',
+     url: '/api/employees',
+     method: 'POST',
+     query: {},
+     body: { firstName: 'Tien', lastName: 'Nguyen' } },
+  level: 'info',
+  timestamp: '2019-08-20T00:51:57.028Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '06278cb2-ae3c-4b9b-8b29-95c76327c8c5',
+     datetime: '2019-08-20 07:51:57 +07:00',
+     url: '/api/employees',
+     method: 'PUT',
+     query: {},
+     body: { firstName: 'Tien', lastName: 'Nguyen' } },
+  level: 'info',
+  timestamp: '2019-08-20T00:51:57.034Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '06278cb2-ae3c-4b9b-8b29-95c76327c8c5',
+     executionTime: '1ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-20T00:51:57.035Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '863ec1f9-c842-43ec-9fca-0c03f75e8a90',
+     datetime: '2019-08-20 07:54:34 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-20T00:54:34.195Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '863ec1f9-c842-43ec-9fca-0c03f75e8a90',
+     executionTime: '63ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-20T00:54:34.256Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '751b5de6-2aaf-4fc9-9951-1ccd0c6387ce',
+     datetime: '2019-08-20 07:54:34 +07:00',
+     url: '/api/employees',
+     method: 'POST',
+     query: {},
+     body: 
+      { firstName: 'Tien',
+        lastName: 'Nguyen',
+        phoneNumber: '+84966638355' } },
+  level: 'info',
+  timestamp: '2019-08-20T00:54:34.266Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '751b5de6-2aaf-4fc9-9951-1ccd0c6387ce',
+     executionTime: '7ms',
+     status: 201 },
+  level: 'info',
+  timestamp: '2019-08-20T00:54:34.272Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '4a5ab44f-a650-453f-a417-55adefadb319',
+     datetime: '2019-08-20 07:54:34 +07:00',
+     url: '/api/employees',
+     method: 'POST',
+     query: {},
+     body: { firstName: 'Tien', lastName: 'Nguyen' } },
+  level: 'info',
+  timestamp: '2019-08-20T00:54:34.276Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '82bc4894-9d60-4c04-a811-862a49f79c72',
+     datetime: '2019-08-20 07:54:34 +07:00',
+     url: '/api/employees',
+     method: 'PUT',
+     query: {},
+     body: { firstName: 'Tien', lastName: 'Nguyen' } },
+  level: 'info',
+  timestamp: '2019-08-20T00:54:34.287Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '82bc4894-9d60-4c04-a811-862a49f79c72',
+     executionTime: '2ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-20T00:54:34.289Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'c460605b-2d16-40a6-8d58-977b189f948c',
+     datetime: '2019-08-20 12:10:03 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-20T05:10:03.256Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'c0d5f135-693a-4131-8e45-d3577f819eba',
+     datetime: '2019-08-20 12:16:02 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-20T05:16:02.216Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'c0d5f135-693a-4131-8e45-d3577f819eba',
+     executionTime: '78ms',
+     status: 200 },
+  level: 'info',
+  timestamp: '2019-08-20T05:16:02.293Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: '06c6585e-15cb-434a-8aec-a99a8b6a6654',
+     datetime: '2019-08-20 12:17:02 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-20T05:17:02.139Z',
+  [Symbol(level)]: 'info' }
+{ message: 
+   { id: 'b519f77e-f0ba-4d1b-bc98-37589d0f107f',
+     datetime: '2019-08-20 12:17:40 +07:00',
+     url: '/api/employees',
+     method: 'GET',
+     query: {},
+     body: {} },
+  level: 'info',
+  timestamp: '2019-08-20T05:17:40.699Z',
+  [Symbol(level)]: 'info' }
