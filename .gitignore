@@ -1,4 +1,5 @@
 node_modules
 config/local-development.js
 config/local-test.js
+config/local-production.js
 .env

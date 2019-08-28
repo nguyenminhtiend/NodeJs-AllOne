@@ -1,19 +1,19 @@
-FROM node:8.11
+FROM node:alpine
 
-# Create app directory
-WORKDIR /usr/src/app
+ENV NODE_ENV=production
+ENV DB_HOST=localhost
+ENV DB_USERNAME=root
+ENV DB_PASSWORD=Password.123
+ENV DB_DATABASE=node-all
 
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
+WORKDIR /usr/app
+
 COPY package*.json ./
 
-RUN npm install -f
-# If you are building your code for production
-# RUN npm ci --only=production
+RUN npm install --production
 
-# Bundle app source
 COPY . .
 
 EXPOSE 5000
+
 CMD [ "npm", "start" ]

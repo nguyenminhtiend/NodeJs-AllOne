@@ -5,13 +5,13 @@
   "main": "app.js",
   "scripts": {
     "dev": "NODE_ENV=development nodemon src/app.js",
-    "start": "NODE_ENV=production npm run db:migrate && node src/app.js",
+    "start": "NODE_ENV=production node src/app.js",
     "db:migrate": "sequelize --options-path ./src/db/config/sequelize.js db:migrate",
     "test": "NODE_ENV=test mocha test/setup test/**/*.spec.js --exit",
     "db:test-create": "NODE_ENV=test sequelize --options-path ./src/db/config/sequelize.js db:create",
     "db:test": " npm run db:test-create && NODE_ENV=test sequelize --options-path ./src/db/config/sequelize.js db:migrate",
     "docker-build": "docker build -t nodejs-all-one .",
-    "docker-run": "docker run --rm -it -p 5001:5000 -d nodejs-all-one"
+    "docker-run": "docker run -p 5000:5000 -d nodejs-all-one"
   },
   "author": "Tien Nguyen <nguyenminhtiend@gmail.com>",
   "repository": {

@@ -1,11 +1,14 @@
 const { ValidationError } = require('sequelize');
+const { logging } = require('config');
 const AppError = require('./AppError');
+const logger = require('../utils/logger');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = (err, req, res, next) => {
-  if (err instanceof SyntaxError) {
-    return res.status(400).json({
-      error: 'Invalid JSON body.'
+  if (err instanceof AppError) {
+    return res.status(err.code).json({
+      message: err.message,
+      errors: err.errors
     });
   }
   if (err instanceof ValidationError) {
@@ -24,11 +27,8 @@ module.exports = (err, req, res, next) => {
       errors
     });
   }
-  if (err instanceof AppError) {
-    return res.status(err.code).json({
-      message: err.message,
-      errors: err.errors
-    });
+  if (logging.error) {
+    logger.error(err.stack);
   }
   return res.status(500).json({ error: err.message });
 };

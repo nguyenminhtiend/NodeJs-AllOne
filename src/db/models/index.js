@@ -3,7 +3,7 @@ const path = require('path');
 const Sequelize = require('sequelize');
 const { db } = require('config');
 
-console.log('db:', db);
+console.log(db);
 
 const sequelize = new Sequelize(db);
 const paths = fs.readdirSync(__dirname);
