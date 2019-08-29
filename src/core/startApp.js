@@ -2,8 +2,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const initRoutes = require('./initRoutes');
-const initLogRequest = require('./initLogRequest');
-const initLogResponse = require('./initLogResponse');
+const { logRequest, logResponse } = require('../middlewares');
 const errorHandler = require('./errorHandler');
 const { sequelize } = require('../db/models');
 
@@ -14,12 +13,12 @@ module.exports = async (app, port = DEFAULT_PORT) => {
   app.use(helmet());
   app.use(cors());
   app.use(bodyParser.json());
-  initLogRequest(app);
+  logRequest(app);
   initRoutes(app);
   app.use(errorHandler);
-  initLogResponse(app);
+  logResponse(app);
 
-  await sequelize.authenticate();
+  // await sequelize.authenticate();
 
   app.listen(port, () => {
     console.log(`Server (env: ${process.env.NODE_ENV}) started on ${port}`);

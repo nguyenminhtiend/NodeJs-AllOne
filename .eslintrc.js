@@ -4,7 +4,7 @@ module.exports = {
     ecmaVersion: 10
   },
   plugins: [],
-  extends: ['airbnb-base'],
+  extends: ['eslint:recommended', 'airbnb-base'],
   rules: {
     'comma-dangle': 0,
     'no-console': 0,

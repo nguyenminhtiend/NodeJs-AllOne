@@ -13,13 +13,7 @@ module.exports = (app) => {
         datetime: moment().format('YYYY-MM-DD HH:mm:ss Z'),
         url: req.url,
         method: req.method,
-        query: req.query,
-        body: ((body) => {
-          const filteredBody = {
-            ...body
-          };
-          return filteredBody;
-        })(req.body)
+        query: req.query
       });
     }
     next();
