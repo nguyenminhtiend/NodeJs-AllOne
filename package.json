@@ -4,8 +4,8 @@
   "description": "NodeJS all in one",
   "main": "app.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon src/app.js",
-    "start": "NODE_ENV=production node src/app.js",
+    "dev": "NODE_ENV=development nodemon src/index.js",
+    "start": "NODE_ENV=production node src/index.js",
     "db:migrate": "sequelize --options-path ./src/db/config/sequelize.js db:migrate",
     "test": "NODE_ENV=test mocha test/setup test/**/*.spec.js --exit",
     "db:test-create": "NODE_ENV=test sequelize --options-path ./src/db/config/sequelize.js db:create",

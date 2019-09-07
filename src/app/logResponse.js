@@ -5,11 +5,7 @@ const logger = require('../utils/logger');
 module.exports = (app) => {
   if (logging.response) {
     app.use((req, res, next) => {
-      logger.info({
-        id: req.id,
-        executionTime: ms(Date.now() - req.startAt),
-        status: res.statusCode
-      });
+      logger.info(`END ${req.id} ${ms(Date.now() - req.startAt)} ${res.statusCode}`);
       next();
     });
   }

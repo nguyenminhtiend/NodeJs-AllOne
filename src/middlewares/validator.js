@@ -1,6 +1,6 @@
 const Joi = require('joi');
 
-module.exports = schema => (req, res, next) => {
+module.exports = (schema) => (req, res, next) => {
   const errors = {};
   ['body', 'params', 'query'].forEach((key) => {
     if (schema[key]) {

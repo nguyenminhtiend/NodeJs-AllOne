@@ -1,9 +1,9 @@
 const { ValidationError } = require('sequelize');
 const { logging } = require('config');
-const AppError = require('./AppError');
+const { AppError } = require('../utils');
 const logger = require('../utils/logger');
 
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line
 module.exports = (err, req, res, next) => {
   if (err instanceof AppError) {
     return res.status(err.code).json({

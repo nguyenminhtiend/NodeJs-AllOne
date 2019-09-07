@@ -1,5 +1,5 @@
-const { Employee, Department } = require('../db/models');
-const { AppError } = require('../core');
+const { Employee, Department } = require('../../db/models');
+const { AppError } = require('../../app');
 
 module.exports = class EmployeeService {
   static async getBy() {

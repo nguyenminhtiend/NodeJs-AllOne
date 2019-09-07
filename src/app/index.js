@@ -1,14 +1,15 @@
+const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const initRoutes = require('./initRoutes');
-const { logRequest, logResponse } = require('../middlewares');
+const logRequest = require('./logRequest');
 const errorHandler = require('./errorHandler');
-const { sequelize } = require('../db/models');
+const logResponse = require('./logResponse');
 
-const DEFAULT_PORT = process.env.PORT || 5000;
+module.exports = async (port = process.env.PORT || 5000) => {
+  const app = express();
 
-module.exports = async (app, port = DEFAULT_PORT) => {
   app.disable('x-powered-by');
   app.use(helmet());
   app.use(cors());
@@ -18,10 +19,9 @@ module.exports = async (app, port = DEFAULT_PORT) => {
   app.use(errorHandler);
   logResponse(app);
 
-  // await sequelize.authenticate();
-
   app.listen(port, () => {
     console.log(`Server (env: ${process.env.NODE_ENV}) started on ${port}`);
   });
+
   return app;
 };

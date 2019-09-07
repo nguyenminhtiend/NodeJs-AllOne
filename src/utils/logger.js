@@ -1,14 +1,12 @@
 const { createLogger, format, transports } = require('winston');
 
-const { combine, timestamp, prettyPrint } = format;
-
 const logger = createLogger({
-  format: combine(timestamp(), prettyPrint()),
+  format: format.json(),
   transports: [
     new transports.Console({ level: 'info' }),
     new transports.File({
-      filename: 'combined.log',
-      level: 'info'
+      filename: 'logs/combined.log',
+      level: 'error'
     })
   ]
 });

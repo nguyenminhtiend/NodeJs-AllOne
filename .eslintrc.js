@@ -4,12 +4,13 @@ module.exports = {
     ecmaVersion: 10
   },
   plugins: [],
-  extends: ['eslint:recommended', 'airbnb-base'],
+  extends: ['airbnb-base'],
   rules: {
     'comma-dangle': 0,
     'no-console': 0,
     'func-names': 0,
-    'no-underscore-dangle': 0
+    'no-underscore-dangle': 0,
+    'object-curly-newline': 0
   },
   env: {
     es6: true,
