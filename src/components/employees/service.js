@@ -1,15 +1,15 @@
-const { Employee, Department } = require('../../db/models');
-const { AppError } = require('../../app');
+const { Employee, Department } = require("../../db/models");
+const { AppError } = require("../../app");
 
 module.exports = class EmployeeService {
   static async getBy() {
     const employees = await Employee.findAll({
-      attributes: { exclude: ['updated_at'] },
+      attributes: { exclude: ["updated_at"] },
       include: [
         {
           model: Department,
-          as: 'department',
-          attributes: ['name']
+          as: "department",
+          attributes: ["name"]
         }
       ]
     });
@@ -18,12 +18,12 @@ module.exports = class EmployeeService {
 
   static async getById(id) {
     const employee = await Employee.findByPk(id, {
-      attributes: { exclude: ['updated_at'] },
+      attributes: { exclude: ["updated_at"] },
       include: [
         {
           model: Department,
-          as: 'department',
-          attributes: ['id', 'name']
+          as: "department",
+          attributes: ["id", "name"]
         }
       ]
     });
@@ -41,6 +41,6 @@ module.exports = class EmployeeService {
         id
       }
     });
-    if (affectedRows === 0) throw new AppError('No record is updated.  lakgj aglkaj glkajgl agjlaks');
+    if (affectedRows === 0) throw new AppError("No record is updated.");
   }
 };
