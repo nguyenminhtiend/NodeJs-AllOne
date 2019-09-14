@@ -1,4 +1,6 @@
-const { getBy, getById, create, update } = require('./service');
+const {
+  getBy, getById, create, update
+} = require('./service');
 
 module.exports = class EmployeeController {
   static async index(req, res) {

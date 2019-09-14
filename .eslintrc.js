@@ -1,16 +1,12 @@
 module.exports = {
   root: true,
   parserOptions: {
-    ecmaVersion: 10
+    ecmaVersion: 2018
   },
   plugins: [],
   extends: ['airbnb-base'],
   rules: {
-    'comma-dangle': 0,
-    'no-console': 0,
-    'func-names': 0,
-    'no-underscore-dangle': 0,
-    'object-curly-newline': 0
+    'comma-dangle': 0
   },
   env: {
     es6: true,

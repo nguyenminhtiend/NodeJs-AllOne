@@ -41,6 +41,6 @@ module.exports = class EmployeeService {
         id
       }
     });
-    if (affectedRows === 0) throw new AppError('No record is updated.');
+    if (affectedRows === 0) throw new AppError('No record is updated.  lakgj aglkaj glkajgl agjlaks');
   }
 };

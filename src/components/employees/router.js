@@ -1,8 +1,10 @@
 const express = require('express');
 const { asyncRoute } = require('../../utils');
 const { validator } = require('../../middlewares');
-const { index, show, create, update } = require('./controller');
-const { detailEmployee, createEmployee, updateEmployee } = require('./schema');
+const {
+  index, show, create, update
+} = require('./controller');
+const { detailEmployee, createEmployee, updateEmployee, } = require('./schema');
 
 module.exports = (app) => {
   const router = express.Router();
