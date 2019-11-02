@@ -33,7 +33,7 @@
     "lodash": "4.17.10",
     "ms": "2.1.1",
     "mysql2": "1.5.3",
-    "sequelize": "4.38.1",
+    "sequelize": "5.15.1",
     "uuid": "3.2.1",
     "validator": "9.4.1",
     "winston": "3.0.0-rc5"
