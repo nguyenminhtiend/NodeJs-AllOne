@@ -1,4 +1,4 @@
-const { seedEmployee, seedDepartment } = require('../seed');
+const { seedEmployee, seedDepartment } = require('./seed');
 
 describe('## Employee APIs', () => {
   beforeEach(async () => { });
@@ -7,10 +7,11 @@ describe('## Employee APIs', () => {
     it('should return all employees', async () => {
       await seedEmployee();
 
-      const res = await chai.request(URL).get('/employees');
+      const res = await chai.request(app)
+        .get('/api/employees');
 
       expect(res).to.have.status(200);
-      expect(res.body.length).to.equal(2);
+      expect(res.body.total).to.equal(2);
     });
   });
 
@@ -21,7 +22,10 @@ describe('## Employee APIs', () => {
         name: 'Tien',
         departmentId
       };
-      const res = await chai.request(URL).post('/employees').send(employee);
+      const res = await chai.request(app)
+        .post('/api/employees')
+        .send(employee);
+
       expect(res).to.have.status(201);
       expect(res.body).to.like(employee);
       expect(res.body)
@@ -31,7 +35,11 @@ describe('## Employee APIs', () => {
 
     it('should get bad request with invalid input', async () => {
       const employee = {};
-      const res = await chai.request(URL).post('/employees').send(employee);
+
+      const res = await chai.request(app)
+        .post('/api/employees')
+        .send(employee);
+
       expect(res).to.have.status(400);
       expect(res.body).to.like({
         name: 'Name is required.',

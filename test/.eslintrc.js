@@ -3,6 +3,8 @@ module.exports = {
     sinon: true,
     chai: true,
     expect: true,
-    URL: true
+    URL: true,
+    server: true,
+    app: true
   }
 };

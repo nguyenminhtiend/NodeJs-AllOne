@@ -1,10 +1,11 @@
 const moment = require('moment-timezone');
 const uuidv4 = require('uuid/v4');
-const { logging } = require('config');
 const logger = require('../utils/logger');
 
+const { LOGGING_REQUEST } = process.env;
+
 module.exports = (app) => {
-  if (logging.request) {
+  if (LOGGING_REQUEST) {
     app.use((req, res, next) => {
       req.id = uuidv4();
       req.startAt = new Date();

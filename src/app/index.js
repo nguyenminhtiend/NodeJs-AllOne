@@ -6,8 +6,9 @@ const initRoutes = require('./initRoutes');
 const logRequest = require('./logRequest');
 const errorHandler = require('./errorHandler');
 const logResponse = require('./logResponse');
+// const { logger } = require('../utils');
 
-module.exports = async (port = process.env.PORT || 5000) => {
+module.exports = () => {
   const app = express();
 
   app.disable('x-powered-by');
@@ -19,9 +20,9 @@ module.exports = async (port = process.env.PORT || 5000) => {
   app.use(errorHandler);
   logResponse(app);
 
-  app.listen(port, () => {
-    console.log(`Server (env: ${process.env.NODE_ENV}) started on ${port}`);
-  });
+  // const server = app.listen(port, () => {
+  //   logger.info(`Server (env: ${process.env.NODE_ENV}) started on ${port}`);
+  // });
 
   return app;
 };

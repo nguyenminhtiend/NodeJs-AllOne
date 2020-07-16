@@ -1,25 +1,20 @@
+const path = require('path');
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const chaiLike = require('chai-like');
-const express = require('express');
+const startApp = require('../src/app');
 
-const app = express();
-const sinon = require('sinon');
-const startApp = require('../src/core/startApp');
+if (process.env.NODE_ENV !== 'test') {
+  throw new Error(`Trying to start tests with NODE_ENV !== test. (${process.env.NODE_ENV})`);
+}
+
+require('dotenv').config({ path: path.resolve(process.cwd(), '.env.test') }); //eslint-disable-line
 
 global.chai = chai;
-global.assert = chai.assert;
 global.expect = chai.expect;
-global.URL = 'localhost:3001/api';
-global.sinon = sinon;
 
 chai.use(chaiHttp);
 chai.use(chaiLike);
 
-before((done) => {
-  if (process.env.NODE_ENV !== 'test') {
-    throw new Error(`Trying to start tests with NODE_ENV !== test. (${process.env.NODE_ENV})`);
-  }
-  startApp(app, 3001);
-  done();
-});
+const app = startApp();
+global.app = app;

@@ -1,5 +1,4 @@
 const { ValidationError } = require('sequelize');
-const { logging } = require('config');
 const { AppError } = require('../utils');
 const logger = require('../utils/logger');
 
@@ -27,8 +26,6 @@ module.exports = (err, req, res, next) => {
       errors
     });
   }
-  if (logging.error) {
-    logger.error(err.stack);
-  }
+  logger.error(err.stack);
   return res.status(500).json({ error: err.message });
 };

@@ -6,7 +6,8 @@ module.exports = {
   plugins: [],
   extends: ['airbnb-base'],
   rules: {
-    'comma-dangle': 0
+    'comma-dangle': 0,
+    'no-underscore-dangle': 0
   },
   env: {
     es6: true,

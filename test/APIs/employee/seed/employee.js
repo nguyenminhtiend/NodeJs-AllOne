@@ -1,4 +1,4 @@
-const { Employee, Department } = require('../../src/db/models');
+const { Employee, Department } = require('../../../../src/db/models');
 
 module.exports = async () => {
   await Employee.destroy({ truncate: { cascade: true } });

@@ -4,8 +4,8 @@ const {
 
 module.exports = class EmployeeController {
   static async index(req, res) {
-    const employees = await getBy();
-    res.json(employees);
+    const result = await getBy(req.query);
+    res.json(result);
   }
 
   static async show(req, res) {

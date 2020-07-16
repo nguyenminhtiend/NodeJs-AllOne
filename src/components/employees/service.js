@@ -1,29 +1,37 @@
-const { Employee, Department } = require("../../db/models");
-const { AppError } = require("../../app");
+const { Op } = require('sequelize');
+const { Employee, Department, sequelize } = require('../../db/models');
+const { AppError } = require('../../utils');
 
 module.exports = class EmployeeService {
-  static async getBy() {
-    const employees = await Employee.findAll({
-      attributes: { exclude: ["updated_at"] },
-      include: [
-        {
-          model: Department,
-          as: "department",
-          attributes: ["name"]
-        }
-      ]
-    });
-    return employees;
+  static async getBy({ search = '', page = 1, perPage = 10 }) {
+    const where = {};
+    if (search) {
+      where.name = { [Op.like]: `%${search}%` };
+    }
+    const [total, data] = await Promise.all([
+      Employee.count({
+        where
+      }),
+      Employee.findAll({
+        where,
+        attributes: { exclude: ['updated_at'] },
+        include: [{ model: Department, as: 'department', attributes: ['name'] }],
+        offset: (page - 1) * perPage,
+        limit: parseInt(perPage, 10)
+      }),
+
+    ]);
+    return { total, data };
   }
 
   static async getById(id) {
     const employee = await Employee.findByPk(id, {
-      attributes: { exclude: ["updated_at"] },
+      attributes: { exclude: ['updated_at'] },
       include: [
         {
           model: Department,
-          as: "department",
-          attributes: ["id", "name"]
+          as: 'department',
+          attributes: ['id', 'name']
         }
       ]
     });
@@ -41,6 +49,6 @@ module.exports = class EmployeeService {
         id
       }
     });
-    if (affectedRows === 0) throw new AppError("No record is updated.");
+    if (affectedRows === 0) throw new AppError('No record is updated.');
   }
 };
