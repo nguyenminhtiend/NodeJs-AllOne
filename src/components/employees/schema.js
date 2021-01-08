@@ -3,7 +3,10 @@ const Joi = require('joi');
 const listEmployee = {
   query: {
     search: Joi.string().optional(),
-    page: Joi.string().regex(/^[1-9][0-9]*$/).optional().error(() => 'Page is invalid.'),
+    page: Joi.string()
+      .regex(/^[1-9][0-9]*$/)
+      .optional()
+      .error(() => 'Page is invalid.'),
     perPage: Joi.string().regex(/^[1-9][0-9]*$/).optional().error(() => 'PerPage is invalid.')
   }
 };
