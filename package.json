@@ -29,7 +29,7 @@
     "glob": "7.1.2",
     "helmet": "^3.15.1",
     "joi": "^14.3.1",
-    "jsonwebtoken": "8.2.1",
+    "jsonwebtoken": "9.0.0",
     "lodash": "4.17.10",
     "ms": "2.1.1",
     "mysql2": "1.5.3",
